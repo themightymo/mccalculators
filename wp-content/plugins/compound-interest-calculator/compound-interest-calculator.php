@@ -8,10 +8,7 @@ Version: 1
 Author URI: http://www.themightymo.com
 */
 
-
-
-
-function slider_adding_scripts() {
+function compound_slider_adding_scripts() {
     //wp_register_script('script_slider', get_stylesheet_directory_uri() . '/slider/js/jquery-ui.js', array('jquery'));
     //wp_register_style('css_slider', get_stylesheet_directory_uri() . '/slider/css/jquery-ui.css');
     
@@ -26,14 +23,14 @@ function slider_adding_scripts() {
     wp_enqueue_script('touch_slider');
 }
   
-add_action( 'wp_enqueue_scripts', 'slider_adding_scripts' ); 
+add_action( 'wp_enqueue_scripts', 'compound_slider_adding_scripts' ); 
 
 
 // Get rid of decimals via https://www.organicweb.com.au/19771/wordpress/gravity-forms-price-rounding/
-add_filter( 'gform_currencies', 'update_currency' );
-function update_currency( $currencies ) {
+add_filter( 'gform_currencies', 'compound_update_currency' );
+function compound_update_currency( $compound_currencies ) {
    if ( is_page(75) ) {
-	$currencies['USD'] = array(
+	$compound_currencies['USD'] = array(
 		'name' => __( 'U.S. Dollar', 'gravityforms' ),
 		'symbol_left' => '$',
 		'symbol_right' => '',
@@ -43,9 +40,9 @@ function update_currency( $currencies ) {
 		'decimals' => 0
 	);
 	 
-	return $currencies;
+	return $compound_currencies;
   }else{
-       $currencies['USD'] = array(
+       $compound_currencies['USD'] = array(
 		'name' => __( 'U.S. Dollar', 'gravityforms' ),
 		'symbol_left' => '$',
 		'symbol_right' => '',
@@ -55,7 +52,7 @@ function update_currency( $currencies ) {
 		'decimals' => 2
 	);
 	 
-	return $currencies;
+	return $compound_currencies;
        
    }
 }
