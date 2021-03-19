@@ -1,1 +1,80 @@
-.magic-day-calc_wrapper { max-width: 414px; }
+.gform_wrapper.magic-day-calc_wrapper { max-width: 414px; }
+.magic-day-calc_wrapper .gfield {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-justify-content: center;
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-box-pack: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-justify-content: center;
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-box-pack: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    background-color: #4d799b;
+    width: 100%;
+}
+.gform_wrapper.magic-day-calc_wrapper .top_label li.gfield.gf_left_half { width: 100%; }
+.magic-day-calc_wrapper .calc-header-blue {
+	margin-right: 0px;
+	padding-top: 8px;
+	padding-left: 16px;
+	padding-bottom: 8px;
+	padding-right: 16px;
+	background-color: #395c76;
+}
+.gform_wrapper.magic-day-calc_wrapper .gsection {
+    margin-bottom: 0;
+}
+.magic-day-calc_wrapper h2 { 
+	color: #fff;
+}
+.magic-day-calc_wrapper .gfield_label {
+	width: 70%;
+	font-size: 16px;
+	line-height: normal !important;
+	margin-bottom: 0px;
+	float: left;
+	padding-left: 16px;
+	color: #fff;
+	padding-right: 2%;
+}
+
+.magic-day-calc_wrapper div.ginput_container {
+    width: 30% !important;
+}
+.magic-day-calc_wrapper input {
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+	width: 100% !important;
+	background-color: #afc7d6;
+	float: right;
+	margin-bottom: 8px;
+}
+.magic-day-calc_wrapper .gfield.gf_right_half { display: none !important; }
+
+
+
+
