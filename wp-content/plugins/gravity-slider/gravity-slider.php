@@ -15,13 +15,15 @@ function slider_adding_scripts() {
     //wp_register_script('script_slider', get_stylesheet_directory_uri() . '/slider/js/jquery-ui.js', array('jquery'));
     //wp_register_style('css_slider', get_stylesheet_directory_uri() . '/slider/css/jquery-ui.css');
     
-    wp_register_script('script_chart', plugins_url( 'chart/Chart.bundle.js', __FILE__ ), array('jquery'),time());
-    wp_register_style('css_chart', plugins_url( 'chart/Chart.css', __FILE__ ),'',time());
+    wp_register_script('script_slider', plugins_url( 'js/jquery-ui.js', __FILE__ ), array('jquery'),time());
+    wp_register_style('css_slider', plugins_url( 'css/jquery-ui.css', __FILE__ ),'',time());
     wp_register_script('load_slider', plugins_url( 'js/load-slider-gf.js', __FILE__ ), array('jquery'),time());
-        
-    wp_enqueue_style('css_chart');
-    wp_enqueue_script('script_chart');
+    wp_register_script('touch_slider', plugins_url( 'js/jquery.ui.touch-punch.min.js', __FILE__ ), array('jquery'),time());
+    
+    wp_enqueue_style('css_slider');
+    wp_enqueue_script('script_slider');
     wp_enqueue_script('load_slider');
+    wp_enqueue_script('touch_slider');
 }
   
 add_action( 'wp_enqueue_scripts', 'slider_adding_scripts' ); 
