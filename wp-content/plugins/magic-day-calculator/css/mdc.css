@@ -1,3 +1,5 @@
+/* OLD CSS
+
 .gform_wrapper.magic-day-calc_wrapper { max-width: 414px; }
 .magic-day-calc_wrapper .gfield {
     display: -webkit-box;
@@ -75,6 +77,866 @@
 }
 .magic-day-calc_wrapper .gfield.gf_right_half { display: none !important; }
 
+*/
 
 
+/* Begin summitsalon.com/find-magic-number */
 
+#gform_submit_button_8 {
+	background: green;
+}
+#field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_39 label, #field_8_78 label, #field_8_80 label, #field_8_82 label, #field_8_88 label{
+    float: left;
+    /*width: 180px;*/
+    padding-left: 16px;
+    font-size: 12px;
+    color: #fff;
+}
+
+#field_8_115 label{
+    float: left;
+    width: 180px;
+    padding-left: 16px;
+    font-size: 12px;
+    color: #4d4d4d !important;
+}
+
+div.instruction{
+    padding-left: 16px;
+}
+
+#field_8_111 div.gfield_description{
+    text-align: justify;
+}
+
+#field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_82 label, #field_8_39 label {
+    line-height: normal !important;
+    margin-bottom: 0px;
+}
+
+#field_8_41 div.ginput_container, #field_8_43 div.ginput_container, #field_8_45 div.ginput_container, #field_8_47 div.ginput_container, #field_8_49 div.ginput_container, #field_8_51 div.ginput_container, #field_8_53 div.ginput_container, #field_8_55 div.ginput_container, #field_8_57 div.ginput_container, #field_8_59 div.ginput_container, #field_8_61 div.ginput_container, #field_8_63 div.ginput_container, #field_8_65 div.ginput_container, #field_8_67 div.ginput_container, #field_8_69 div.ginput_container, #field_8_71 div.ginput_container, #field_8_73 div.ginput_container, #field_8_75 div.ginput_container, #field_8_84 div.ginput_container, #field_8_82 div.ginput_container, #field_8_39 div.ginput_container, #field_8_78 > div.ginput_container, #field_8_80 > div.ginput_container, #field_8_88 > div.ginput_container, #field_8_115 > div.ginput_container, #field_8_112 > div.ginput_container, #field_8_113 > div.ginput_container{
+    width: 30% !important;
+}
+
+#field_8_78 label, #field_8_80 label, #field_8_88 label, #field_8_87 label, #field_8_115 label{
+    margin-top: 0.438em;
+    line-height: normal !important;
+    margin: 0px !important;
+}
+
+#input_8_41, #input_8_43, #input_8_45, #input_8_47, #input_8_49, #input_8_51, #input_8_53, #input_8_55, #input_8_57, #input_8_59, #input_8_61, #input_8_63, #input_8_65, #input_8_67, #input_8_69, #input_8_71, #input_8_73, #input_8_75, #input_8_84, #input_8_39, #input_8_78, #input_8_80, #input_8_88{
+    float: right;
+    margin-bottom: 0px;
+    background-color: #87a4b9;
+    margin-bottom: 8px;
+}
+
+#input_8_115{
+    float: right;
+    margin-bottom: 0px;
+    background-color: #F1E9C5;
+    margin-bottom: 8px;
+}
+
+#input_8_82{
+    margin-bottom: 8px;
+    background-color: #87a4b9;
+}
+
+#input_8_42, #input_8_44, #input_8_46, #input_8_48, #input_8_50, #input_8_52, #input_8_54, #input_8_56, #input_8_58, #input_8_60, #input_8_62, #input_8_64, #input_8_66, #input_8_68, #input_8_70, #input_8_72, #input_8_74, #input_8_76, #input_8_85, #input_8_40, #input_8_79, #input_8_81, #input_8_83{
+    margin-top: 0;
+    margin-bottom: 8px;
+    background-color: #d3c4e0;
+    width: 100%;
+}
+
+#input_8_78, #input_8_80, #input_8_88, #input_8_115{
+    margin-bottom: 8px;
+}
+
+#field_8_77{
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    background-color: #395c76;
+}
+
+#field_8_41, #field_8_43, #field_8_45, #field_8_47, #field_8_49, #field_8_51, #field_8_53, #field_8_55, #field_8_57, #field_8_59, #field_8_61, #field_8_63, #field_8_65, #field_8_67, #field_8_69, #field_8_71, #field_8_73, #field_8_75, #field_8_84, #field_8_39, #field_8_78, #field_8_80, #field_8_82, #field_8_88, #field_8_107,#field_8_42, #field_8_44, #field_8_46, #field_8_48, #field_8_50, #field_8_52, #field_8_54, #field_8_56, #field_8_58, #field_8_60, #field_8_62, #field_8_64, #field_8_66, #field_8_68, #field_8_70, #field_8_72, #field_8_74, #field_8_76, #field_8_85, #field_8_40, #field_8_79, #field_8_81, #field_8_83, #field_8_115 {
+    overflow: auto;
+	background-color: #4d799b;
+}
+
+#field_8_39, #field_8_81, #field_8_40, #field_8_78, #field_8_79, #field_8_80, #field_8_88, #field_8_83{
+    background-color: #395c76 !important;
+}
+
+#field_8_115{
+    background-color: #D1BC2A !important;
+}
+
+#field_8_77 h2, #field_8_39 label, #field_8_81 label, #field_8_40 label, #field_8_78 label, #field_8_79 label, #field_8_80 label, #field_8_88 label, #field_8_83 label{
+    color:#fff;
+}
+
+#field_8_41, #field_8_43, #field_8_45, #field_8_47, #field_8_49, #field_8_51, #field_8_53, #field_8_55, #field_8_57, #field_8_59, #field_8_61, #field_8_63, #field_8_65, #field_8_67, #field_8_69, #field_8_71, #field_8_73, #field_8_75, #field_8_84, #field_8_39, #field_8_78, #field_8_80, #field_8_88, #field_8_115, #field_8_82, #field_8_112, #field_8_113{
+    width: 100%;
+     /* older webkit */
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-justify-content: center;
+
+    /* older firefox */
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+
+    /* IE10*/
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+
+    /* newer webkit */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-box-pack: center;
+
+    /* Standard Form - IE 11+, FF 22+, Chrome 29+, Opera 17+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#field_8_42, #field_8_44, #field_8_46, #field_8_48, #field_8_50, #field_8_52, #field_8_54, #field_8_56, #field_8_58, #field_8_60, #field_8_62, #field_8_64, #field_8_66, #field_8_68, #field_8_70, #field_8_72, #field_8_74, #field_8_76, #field_8_85, #field_8_40, #field_8_79, #field_8_81, #field_8_83{
+    width: 28%;
+}
+
+/* page 2 */
+#field_8_90 label, #field_8_92 label{
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#input_8_89, #input_8_90, #input_8_91, #input_8_92, #input_8_104, #input_8_105, #input_8_106, #input_8_107{
+    float:right;
+}
+
+#field_8_87 label, #field_8_94 label, #field_8_95 label, #field_8_96 label, #field_8_97 label, #field_8_98 label, #field_8_100 label, #field_8_101 label, #field_8_102 label, #field_8_108 label, #field_8_112 label{
+    margin-top: 0.438em;
+    float: left;
+    padding-left: 1em;
+    font-size: 12px;
+    /*width: 180px;*/
+}
+
+#gform_fields_8 input {
+    border: none;
+    width:  100% !important;
+}
+
+#field_8_87, #field_8_108{
+    background-color: #729c52;
+    padding-left: 16px;
+}
+
+#field_8_87 input, #field_8_108 input, #field_8_107 input{
+    background-color: #d1ddc7;
+}
+
+#field_8_87 label, #field_8_108 label{
+    color: #fff;
+}
+
+#field_8_94 label, #field_8_95 label, #field_8_96 label, #field_8_97 label, #field_8_98 label, #field_8_100 label, #field_8_101 label, #field_8_102 label{
+    line-height: 38px;
+}
+
+#field_8_87 div, #field_8_108 div, #field_8_94 div, #field_8_95 div, #field_8_96 div, #field_8_97 div, #field_8_98 div, #field_8_100 div, #field_8_101 div, #field_8_102 div, #field_8_112 div{
+    padding-bottom: 8px;
+}
+
+#input_8_87, #input_8_108, #input_8_94, #input_8_95, #input_8_96, #input_8_97, #input_8_98, #input_8_100, #input_8_101, #input_8_102, #input_8_89, #input_8_90, #input_8_91, #input_8_92, #input_8_104, #input_8_105, #input_8_106, #input_8_107{
+    margin-bottom: 0px;
+}
+
+#field_8_93, #field_8_99, #field_8_103{
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    background-color: #729c52;
+}
+
+#field_8_93 h2, #field_8_99 h2, #field_8_103 h2{
+    color: #fff;
+}
+
+#field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_104, #field_8_105, #field_8_106, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_100, #field_8_101, #field_8_102{
+    background-color: #b3c7a2;
+    padding-left: 16px;
+}
+
+#field_8_107{
+    background-color: #b3c7a2 !important;
+}
+
+#input_8_107{
+    margin-bottom: 8px;
+}
+
+#field_8_89 input, #field_8_90 input, #field_8_91 input, #field_8_92 input, #field_8_104 input, #field_8_105 input, #field_8_106 input, #field_8_94 input, #field_8_95 input, #field_8_96 input, #field_8_97 input, #field_8_98 input, #field_8_100 input, #field_8_101 input, #field_8_102 input, #field_8_112 input{
+    background-color: #d1ddc7;
+}
+
+#field_8_87, #field_8_89, #field_8_90, #field_8_91, #field_8_92{
+    overflow: auto;
+}
+
+#field_8_89 label, #field_8_90 label, #field_8_91 label, #field_8_92 label, #field_8_104 label, #field_8_106 label, #field_8_107 label{
+    width: 110px;
+    font-size: 12px;
+    float: left;
+    margin: 1em 0 0.917em 0;
+}
+
+#field_8_105 label{
+    width: 110px;
+    font-size: 12px;
+    float: left;
+    line-height: 50px;
+}
+
+#field_8_107 label{
+    margin: 5px 0 0 0;
+}
+
+#field_8_112 label, #field_8_113 label{
+    line-height: normal !important;
+    margin: 0px !important;
+}
+
+#field_8_112 input{
+    margin-bottom: 0px;
+}
+
+#field_8_113, #field_8_111{
+    width: 100%;
+    background-color: #729c52;
+    overflow: auto;
+}
+
+#field_8_111{
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+#field_8_113 label{
+    margin-top: 0.438em;
+    float: left;
+    /*width: 180px;*/
+    padding-left: 16px;
+    font-size: 12px;
+}
+
+#field_8_111 label{
+    margin-top: 0.438em;
+    float: left;
+    /*width: 180px;*/
+    font-size: 12px;
+}
+
+
+#input_8_113{
+    margin-bottom: 8px;
+	float: right;
+    background-color: #d1ddc7;
+}
+
+#input_8_111{
+    background-color: #d1ddc7;
+}
+
+#field_8_114{
+    width: 28%;
+    overflow: auto;
+    background-color: #729c52;
+}
+
+#input_8_114{
+    margin-top: 0;
+    margin-bottom: 8px;
+    background-color: #d1ddc7;
+    width: 100%;
+}
+/* Responsive view */
+
+@media only screen and (max-width: 641px){
+    #field_8_41, #field_8_43, #field_8_45, #field_8_47, #field_8_49, #field_8_51, #field_8_53, #field_8_55, #field_8_57, #field_8_59, #field_8_61, #field_8_63, #field_8_65, #field_8_67, #field_8_69, #field_8_71, #field_8_73, #field_8_75, #field_8_84, #field_8_39, #field_8_78, #field_8_80, #field_8_88, #field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_104, #field_8_105, #field_8_106, #field_8_107, #field_8_113, #field_8_115{
+        vertical-align: top;
+        width: 50%;
+        padding: 0 16px 0 16px;
+        float: none;
+    }
+
+    #field_8_42, #field_8_44, #field_8_46, #field_8_48, #field_8_50, #field_8_52, #field_8_54, #field_8_56, #field_8_58, #field_8_60, #field_8_62, #field_8_64, #field_8_66, #field_8_68, #field_8_70, #field_8_72, #field_8_74, #field_8_76, #field_8_85, #field_8_40{
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        padding: 2.75em 16px 0 16px;
+        float: none;
+    }
+    
+    #field_8_79, #field_8_81, #field_8_83, #field_8_114{
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        padding: 1.85em 16px 0 16px;
+        float: none;
+    }
+    
+    #field_8_82{
+        padding: 0 16px 0 16px;
+    }
+    
+    #field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_39 label, #field_8_78 label, #field_8_80 label, #field_8_88 label, #field_8_82 label, #field_8_82 .instruction, #field_8_113 label, #field_8_115 label{
+        padding-left: 0px;
+    }
+    
+    #field_8_87, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_100, #field_8_101, #field_8_102, #field_8_108, #field_8_112, #field_8_111{
+        padding-right: 16px;
+    }
+    
+    #field_8_89 input, #field_8_90 input, #field_8_91 input, #field_8_92 input, #field_8_104 input, #field_8_105 input, #field_8_106 input{
+        margin-bottom: 8px;
+    }
+    
+    #field_8_107 input{
+        margin-bottom: 11px;
+    }
+}
+
+#field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_93, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_99, #field_8_100, #field_8_101, #field_8_102, #field_8_103, #field_8_104, #field_8_105, #field_8_106, #field_8_107, #field_8_108, #field_8_109{
+    display: none !important;
+}
+/* End summitsalon.com/find-magic-number */
+
+#gform_wrapper_8{
+	max-width: 414px;
+}
+#input_8_41, #input_8_43, #input_8_45, #input_8_47, #input_8_49, #input_8_51, #input_8_53, #input_8_55, #input_8_57, #input_8_59, #input_8_61, #input_8_63, #input_8_65, #input_8_67, #input_8_69, #input_8_71, #input_8_73, #input_8_75, #input_8_84, #input_8_39, #input_8_78, #input_8_80, #input_8_88,
+.page-id-7792 .gform_wrapper input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]),
+#input_8_82{
+	background-color:#afc7d6;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+}
+#gform_fields_8 input {
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	width:30%;
+}
+#field_8_82, #field_8_112, #field_8_77,
+#field_8_41, #field_8_43, #field_8_45, #field_8_47, #field_8_49, #field_8_51, #field_8_53, #field_8_55, #field_8_57, #field_8_59, #field_8_61, #field_8_63, #field_8_65, #field_8_67, #field_8_69, #field_8_71, #field_8_73, #field_8_75, #field_8_84, #field_8_39, #field_8_78, #field_8_80, #field_8_88, #field_8_115 {
+	width: 100%;
+}
+#field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_39 label, #field_8_78 label, #field_8_80 label, #field_8_82 label, #field_8_88 label,
+#field_8_112 label,
+#field_8_113 label{
+	font-size: 16px;
+}
+.gform_wrapper .top_label li.gfield.gf_left_half input.small, .gform_wrapper .top_label li.gfield.gf_right_half input.small,
+#gform_fields_8 input {
+    width: 30%;
+}
+#field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_39 label, #field_8_78 label, #field_8_80 label, #field_8_82 label, #field_8_88 label,
+#field_8_78 label, #field_8_80 label, #field_8_88 label, #field_8_87 label, #field_8_115 label,
+#field_8_112 label,
+#field_8_112 label,
+#field_8_113 label{
+	width: 70%;
+	line-height: 50px;
+}
+.gform_wrapper .instruction {
+	display:none;
+}
+#field_8_115,
+#field_8_88,
+#field_40_4,
+#field_47_7,
+#field_39_7 {
+	background-color: #c09509 !important;
+}
+#input_8_88,
+#input_40_4,
+#input_47_7,
+#input_39_7{
+	background-color: #F1E9C5;
+}
+#field_8_115 .gfield_label {
+	color: #fff !important;
+	font-size: 16px;
+}
+#field_8_115 input {
+	font-size: 16px;
+	font-weight:bold;
+	text-align: center;
+}
+#field_8_113, #field_8_111 {
+	width: 100%;
+}
+#field_8_112 label,
+#field_8_113 label{
+	line-height:23px;
+	font-weight:bold;
+	color: #fff;
+}
+#field_8_113 label {
+	line-height: 1.2em;
+}
+#field_8_113, 
+#field_8_111 {
+    background-color: #618c44;
+}
+#field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_104, #field_8_105, #field_8_106, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_100, #field_8_101, #field_8_102, #field_8_112 {
+    background-color: #8aa572;
+}
+#field_8_111 {
+	background-color:#737373;
+	color:#fff;
+}
+
+#field_8_111 label {
+	color:#fff;
+	font-size:16px;
+	line-height: 38px;
+	width: 100%;
+}
+input#input_8_111 {
+	clear:both;
+	width: 100%;
+	background-color:#d9d9d9;
+}
+#gform_submit_button_8 {
+	width: 100%;
+	background-color: #000;
+	border: none;
+}
+#gform_wrapper_8.gform_wrapper .gform_footer {
+	padding-top:0;
+}
+.gform_wrapper .field_description_below .gfield_description {
+	padding-top: 0;
+}
+#gform_confirmation_message_8 {
+	font-weight:bold;
+	color:#fff;
+}
+.gwp_percentage input {
+	max-width:100%;
+}
+.gform_wrapper .gfield_required {
+	color:#fff;
+}
+
+
+#gform_wrapper_8 .gfield,
+{
+	   /* older webkit */
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-justify-content: center;
+
+    /* older firefox */
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+
+    /* IE10*/
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+
+    /* newer webkit */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-box-pack: center;
+
+    /* Standard Form - IE 11+, FF 22+, Chrome 29+, Opera 17+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gform_wrapper_8 #field_8_111.gfield{
+	display:block;
+}
+
+@media all and (max-width: 368px) {
+  #field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_39 label, #field_8_78 label, #field_8_80 label, #field_8_82 label, #field_8_88 label, #field_8_78 label, #field_8_80 label, #field_8_88 label, #field_8_87 label, #field_8_115 label, #field_8_112 label, #field_8_112 label, #field_8_113 label {
+		line-height: 1em;
+	}
+}
+#field_8_42, #field_8_44, #field_8_46, #field_8_48, #field_8_50, #field_8_52, #field_8_54, #field_8_56, #field_8_58, #field_8_60, #field_8_62, #field_8_64, #field_8_66, #field_8_68, #field_8_70, #field_8_72, #field_8_74, #field_8_76, #field_8_85, #field_8_40, #field_8_79, #field_8_81, #field_8_83, #field_8_114 {
+	display:none;
+}
+/* Begin summitsalon.com/find-magic-number */
+
+#gform_submit_button_8 {
+	background: green;
+}
+#field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_39 label, #field_8_78 label, #field_8_80 label, #field_8_82 label, #field_8_88 label{
+    float: left;
+    /*width: 180px;*/
+    padding-left: 16px;
+    font-size: 12px;
+    color: #fff;
+}
+
+#field_8_115 label{
+    float: left;
+    /*width: 180px;*/
+    padding-left: 16px;
+    font-size: 12px;
+    color: #4d4d4d !important;
+}
+
+div.instruction{
+    padding-left: 16px;
+}
+
+#field_8_111 div.gfield_description{
+    text-align: justify;
+}
+
+#field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_82 label, #field_8_39 label {
+    line-height: normal !important;
+    margin-bottom: 0px;
+}
+
+#field_8_41 div.ginput_container, #field_8_43 div.ginput_container, #field_8_45 div.ginput_container, #field_8_47 div.ginput_container, #field_8_49 div.ginput_container, #field_8_51 div.ginput_container, #field_8_53 div.ginput_container, #field_8_55 div.ginput_container, #field_8_57 div.ginput_container, #field_8_59 div.ginput_container, #field_8_61 div.ginput_container, #field_8_63 div.ginput_container, #field_8_65 div.ginput_container, #field_8_67 div.ginput_container, #field_8_69 div.ginput_container, #field_8_71 div.ginput_container, #field_8_73 div.ginput_container, #field_8_75 div.ginput_container, #field_8_84 div.ginput_container, #field_8_82 div.ginput_container, #field_8_39 div.ginput_container, #field_8_78 > div.ginput_container, #field_8_80 > div.ginput_container, #field_8_88 > div.ginput_container, #field_8_115 > div.ginput_container, #field_8_112 > div.ginput_container, #field_8_113 > div.ginput_container{
+    width: 30% !important;
+}
+
+#field_8_78 label, #field_8_80 label, #field_8_88 label, #field_8_87 label, #field_8_115 label{
+    margin-top: 0.438em;
+    line-height: normal !important;
+    margin: 0px !important;
+}
+
+#input_8_41, #input_8_43, #input_8_45, #input_8_47, #input_8_49, #input_8_51, #input_8_53, #input_8_55, #input_8_57, #input_8_59, #input_8_61, #input_8_63, #input_8_65, #input_8_67, #input_8_69, #input_8_71, #input_8_73, #input_8_75, #input_8_84, #input_8_39, #input_8_78, #input_8_80, #input_8_88{
+    float: right;
+    margin-bottom: 0px;
+    background-color: #87a4b9;
+    margin-bottom: 8px;
+}
+
+#input_8_115{
+    float: right;
+    margin-bottom: 0px;
+    background-color: #F1E9C5;
+    margin-bottom: 8px;
+}
+
+#input_8_82{
+    margin-bottom: 8px;
+    background-color: #87a4b9;
+}
+
+#input_8_42, #input_8_44, #input_8_46, #input_8_48, #input_8_50, #input_8_52, #input_8_54, #input_8_56, #input_8_58, #input_8_60, #input_8_62, #input_8_64, #input_8_66, #input_8_68, #input_8_70, #input_8_72, #input_8_74, #input_8_76, #input_8_85, #input_8_40, #input_8_79, #input_8_81, #input_8_83{
+    margin-top: 0;
+    margin-bottom: 8px;
+    background-color: #d3c4e0;
+    width: 100%;
+}
+
+#input_8_78, #input_8_80, #input_8_88, #input_8_115{
+    margin-bottom: 8px;
+}
+
+#field_8_77{
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    background-color: #395c76;
+}
+
+#field_8_41, #field_8_43, #field_8_45, #field_8_47, #field_8_49, #field_8_51, #field_8_53, #field_8_55, #field_8_57, #field_8_59, #field_8_61, #field_8_63, #field_8_65, #field_8_67, #field_8_69, #field_8_71, #field_8_73, #field_8_75, #field_8_84, #field_8_39, #field_8_78, #field_8_80, #field_8_82, #field_8_88, #field_8_107,#field_8_42, #field_8_44, #field_8_46, #field_8_48, #field_8_50, #field_8_52, #field_8_54, #field_8_56, #field_8_58, #field_8_60, #field_8_62, #field_8_64, #field_8_66, #field_8_68, #field_8_70, #field_8_72, #field_8_74, #field_8_76, #field_8_85, #field_8_40, #field_8_79, #field_8_81, #field_8_83, #field_8_115 {
+    overflow: auto;
+	background-color: #4d799b;
+}
+
+#field_8_39, #field_8_81, #field_8_40, #field_8_78, #field_8_79, #field_8_80, #field_8_88, #field_8_83{
+    background-color: #395c76 !important;
+}
+
+#field_8_115{
+    background-color: #D1BC2A !important;
+}
+
+#field_8_77 h2, #field_8_39 label, #field_8_81 label, #field_8_40 label, #field_8_78 label, #field_8_79 label, #field_8_80 label, #field_8_88 label, #field_8_83 label{
+    color:#fff;
+}
+
+#field_8_41, #field_8_43, #field_8_45, #field_8_47, #field_8_49, #field_8_51, #field_8_53, #field_8_55, #field_8_57, #field_8_59, #field_8_61, #field_8_63, #field_8_65, #field_8_67, #field_8_69, #field_8_71, #field_8_73, #field_8_75, #field_8_84, #field_8_39, #field_8_78, #field_8_80, #field_8_88, #field_8_115, #field_8_82, #field_8_112, #field_8_113{
+    width: 100%;
+     /* older webkit */
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-justify-content: center;
+
+    /* older firefox */
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+
+    /* IE10*/
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+
+    /* newer webkit */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-box-pack: center;
+
+    /* Standard Form - IE 11+, FF 22+, Chrome 29+, Opera 17+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#field_8_42, #field_8_44, #field_8_46, #field_8_48, #field_8_50, #field_8_52, #field_8_54, #field_8_56, #field_8_58, #field_8_60, #field_8_62, #field_8_64, #field_8_66, #field_8_68, #field_8_70, #field_8_72, #field_8_74, #field_8_76, #field_8_85, #field_8_40, #field_8_79, #field_8_81, #field_8_83{
+    width: 28%;
+}
+
+/* page 2 */
+#field_8_90 label, #field_8_92 label{
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#input_8_89, #input_8_90, #input_8_91, #input_8_92, #input_8_104, #input_8_105, #input_8_106, #input_8_107{
+    float:right;
+}
+
+#field_8_87 label, #field_8_94 label, #field_8_95 label, #field_8_96 label, #field_8_97 label, #field_8_98 label, #field_8_100 label, #field_8_101 label, #field_8_102 label, #field_8_108 label, #field_8_112 label{
+    margin-top: 0.438em;
+    float: left;
+    padding-left: 1em;
+    font-size: 12px;
+    /*width: 180px;*/
+}
+
+#gform_fields_8 input {
+    border: none;
+    width:  100% !important;
+}
+
+#field_8_87, #field_8_108{
+    background-color: #729c52;
+    padding-left: 16px;
+}
+
+#field_8_87 input, #field_8_108 input, #field_8_107 input{
+    background-color: #d1ddc7;
+}
+
+#field_8_87 label, #field_8_108 label{
+    color: #fff;
+}
+
+#field_8_94 label, #field_8_95 label, #field_8_96 label, #field_8_97 label, #field_8_98 label, #field_8_100 label, #field_8_101 label, #field_8_102 label{
+    line-height: 38px;
+}
+
+#field_8_87 div, #field_8_108 div, #field_8_94 div, #field_8_95 div, #field_8_96 div, #field_8_97 div, #field_8_98 div, #field_8_100 div, #field_8_101 div, #field_8_102 div, #field_8_112 div{
+    padding-bottom: 8px;
+}
+
+#input_8_87, #input_8_108, #input_8_94, #input_8_95, #input_8_96, #input_8_97, #input_8_98, #input_8_100, #input_8_101, #input_8_102, #input_8_89, #input_8_90, #input_8_91, #input_8_92, #input_8_104, #input_8_105, #input_8_106, #input_8_107{
+    margin-bottom: 0px;
+}
+
+#field_8_93, #field_8_99, #field_8_103{
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    background-color: #729c52;
+}
+
+#field_8_93 h2, #field_8_99 h2, #field_8_103 h2{
+    color: #fff;
+}
+
+#field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_104, #field_8_105, #field_8_106, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_100, #field_8_101, #field_8_102{
+    background-color: #b3c7a2;
+    padding-left: 16px;
+}
+
+#field_8_107{
+    background-color: #b3c7a2 !important;
+}
+
+#input_8_107{
+    margin-bottom: 8px;
+}
+
+#field_8_89 input, #field_8_90 input, #field_8_91 input, #field_8_92 input, #field_8_104 input, #field_8_105 input, #field_8_106 input, #field_8_94 input, #field_8_95 input, #field_8_96 input, #field_8_97 input, #field_8_98 input, #field_8_100 input, #field_8_101 input, #field_8_102 input, #field_8_112 input{
+    background-color: #d1ddc7;
+}
+
+#field_8_87, #field_8_89, #field_8_90, #field_8_91, #field_8_92{
+    overflow: auto;
+}
+
+#field_8_89 label, #field_8_90 label, #field_8_91 label, #field_8_92 label, #field_8_104 label, #field_8_106 label, #field_8_107 label{
+    width: 110px;
+    font-size: 12px;
+    float: left;
+    margin: 1em 0 0.917em 0;
+}
+
+#field_8_105 label{
+    width: 110px;
+    font-size: 12px;
+    float: left;
+    line-height: 50px;
+}
+
+#field_8_107 label{
+    margin: 5px 0 0 0;
+}
+
+#field_8_112 label, #field_8_113 label{
+    line-height: normal !important;
+    margin: 0px !important;
+}
+
+#field_8_112 input{
+    margin-bottom: 0px;
+}
+
+#field_8_113, #field_8_111{
+    width: 100%;
+    background-color: #729c52;
+    overflow: auto;
+}
+
+#field_8_111{
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+#field_8_113 label{
+    margin-top: 0.438em;
+    float: left;
+    /* width: 180px; */
+    padding-left: 16px;
+    font-size: 12px;
+}
+
+#field_8_111 label{
+    margin-top: 0.438em;
+    float: left;
+    /* width: 180px; */
+    font-size: 12px;
+}
+
+
+#input_8_113{
+    margin-bottom: 8px;
+	float: right;
+    background-color: #d1ddc7;
+}
+
+#input_8_111{
+    background-color: #d1ddc7;
+}
+
+#field_8_114{
+    width: 28%;
+    overflow: auto;
+    background-color: #729c52;
+}
+
+#input_8_114{
+    margin-top: 0;
+    margin-bottom: 8px;
+    background-color: #d1ddc7;
+    width: 100%;
+}
+/* Responsive view */
+
+@media only screen and (max-width: 641px){
+    #field_8_41, #field_8_43, #field_8_45, #field_8_47, #field_8_49, #field_8_51, #field_8_53, #field_8_55, #field_8_57, #field_8_59, #field_8_61, #field_8_63, #field_8_65, #field_8_67, #field_8_69, #field_8_71, #field_8_73, #field_8_75, #field_8_84, #field_8_39, #field_8_78, #field_8_80, #field_8_88, #field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_104, #field_8_105, #field_8_106, #field_8_107, #field_8_113, #field_8_115{
+        vertical-align: top;
+        width: 50%;
+        padding: 0 16px 0 16px;
+        float: none;
+    }
+
+    #field_8_42, #field_8_44, #field_8_46, #field_8_48, #field_8_50, #field_8_52, #field_8_54, #field_8_56, #field_8_58, #field_8_60, #field_8_62, #field_8_64, #field_8_66, #field_8_68, #field_8_70, #field_8_72, #field_8_74, #field_8_76, #field_8_85, #field_8_40{
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        padding: 2.75em 16px 0 16px;
+        float: none;
+    }
+    
+    #field_8_79, #field_8_81, #field_8_83, #field_8_114{
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        padding: 1.85em 16px 0 16px;
+        float: none;
+    }
+    
+    #field_8_82{
+        padding: 0 16px 0 16px;
+    }
+    
+    #field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_39 label, #field_8_78 label, #field_8_80 label, #field_8_88 label, #field_8_82 label, #field_8_82 .instruction, #field_8_113 label, #field_8_115 label{
+        padding-left: 0px;
+    }
+    
+    #field_8_87, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_100, #field_8_101, #field_8_102, #field_8_108, #field_8_112, #field_8_111{
+        padding-right: 16px;
+    }
+    
+    #field_8_89 input, #field_8_90 input, #field_8_91 input, #field_8_92 input, #field_8_104 input, #field_8_105 input, #field_8_106 input{
+        margin-bottom: 8px;
+    }
+    
+    #field_8_107 input{
+        margin-bottom: 11px;
+    }
+}
+
+#field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_93, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_99, #field_8_100, #field_8_101, #field_8_102, #field_8_103, #field_8_104, #field_8_105, #field_8_106, #field_8_107, #field_8_108, #field_8_109{
+    display: none !important;
+}
+#field_8_41 label, #field_8_43 label, #field_8_45 label, #field_8_47 label, #field_8_49 label, #field_8_51 label, #field_8_53 label, #field_8_55 label, #field_8_57 label, #field_8_59 label, #field_8_61 label, #field_8_63 label, #field_8_65 label, #field_8_67 label, #field_8_69 label, #field_8_71 label, #field_8_73 label, #field_8_75 label, #field_8_84 label, #field_8_39 label, #field_8_78 label, #field_8_80 label, #field_8_82 label, #field_8_88 label, #field_8_112 label, #field_8_113 label {
+    font-size: 16px;
+}
+
+#gform_submit_button_8 {
+    width: 100%;
+    background-color: #000;
+    border: none;
+	border-radius: 0;
+	font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* End summitsalon.com/find-magic-number */
