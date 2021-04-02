@@ -502,9 +502,14 @@ div.instruction{
 #field_8_111 {
     background-color: #618c44;
 }
-#field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_104, #field_8_105, #field_8_106, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_100, #field_8_101, #field_8_102, #field_8_112 {
+#field_8_89, #field_8_90, #field_8_91, #field_8_92, #field_8_104, #field_8_105, #field_8_106, #field_8_94, #field_8_95, #field_8_96, #field_8_97, #field_8_98, #field_8_100, #field_8_101, #field_8_102 {
     background-color: #8aa572;
 }
+
+#field_8_112 {
+    background-color: #357e3c;
+}
+
 #field_8_111 {
 	background-color:#737373;
 	color:#fff;
@@ -659,7 +664,7 @@ div.instruction{
 
 #input_8_82{
     margin-bottom: 8px;
-    background-color: #d7e7d9;
+    background-color: #d7e5d8;
 }
 
 #input_8_42, #input_8_44, #input_8_46, #input_8_48, #input_8_50, #input_8_52, #input_8_54, #input_8_56, #input_8_58, #input_8_60, #input_8_62, #input_8_64, #input_8_66, #input_8_68, #input_8_70, #input_8_72, #input_8_74, #input_8_76, #input_8_85, #input_8_40, #input_8_79, #input_8_81, #input_8_83{
@@ -850,9 +855,15 @@ div.instruction{
     margin-bottom: 0px;
 }
 
-#field_8_113, #field_8_111{
+#field_8_113{
     width: 100%;
-    background-color: #729c52;
+    background-color: #12671a;
+    overflow: auto;
+}
+
+#field_8_111{
+    width: 100%;
+    background-color: #686868;
     overflow: auto;
 }
 
@@ -880,11 +891,11 @@ div.instruction{
 #input_8_113{
     margin-bottom: 8px;
 	float: right;
-    background-color: #d1ddc7;
+    background-color: #d0e1d1;
 }
 
 #input_8_111{
-    background-color: #d1ddc7;
+    background-color: #d4d4d4;
 }
 
 #field_8_114{
@@ -962,5 +973,11 @@ div.instruction{
     font-weight: bold;
 }
 
+#field_8_111 label {
+    color: #fff;
+    font-size: 16px;
+    line-height: 38px;
+    width: 100%;
+}
 
 /* End summitsalon.com/find-magic-number */
