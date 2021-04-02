@@ -1,0 +1,147 @@
+#gform_fields_9 li{
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+}
+
+#gform_fields_9 label{
+    margin-bottom: 0px;
+    float: left;
+    width: 75%;
+    color: #fff;
+}
+
+#gform_fields_9 input{
+    margin-bottom: 0px;
+    border: none;
+    font-weight: bold;
+}
+#field_9_10{
+    background-color: #395c76;
+}
+
+#field_9_14, #field_9_5, #field_9_6, #field_9_4, #field_9_8{
+    background-color: #5781ad;
+}
+
+#input_9_14, #input_9_5, #input_9_6, #input_9_4, #input_9_8{
+    background-color: #dde6ef;
+}
+
+#field_9_12, #field_9_13{
+    background-color: #618c44;
+}
+
+#field_9_11{
+    background-color: #8aa572;
+}
+
+#input_9_11, #input_9_13{
+    background-color: #d1ddc7;
+}
+
+#field_9_4 > label, #field_9_6 > label, #field_9_7 > label, #field_9_13 > label{
+    line-height: 38px;
+}
+
+.gform_wrapper#gform_wrapper_9{
+	max-width: 414px;
+}
+
+.gform_wrapper#gform_wrapper_9 h2.gsection_title{
+	color: #fff;
+	font-weight: 200;	
+}
+.gform_wrapper#gform_wrapper_9 ul.gform_fields li.gfield{
+	
+}
+
+#field_9_14 > label, #field_9_5 > label, #field_9_8 > label, #field_9_4 > label, #field_9_6 > label, #field_9_7 > label{
+	color: #fff;
+}
+
+#field_9_15{
+    background-color: #c09509;
+}
+
+#input_9_15{
+    background-color: #F1E9C5;
+}
+
+#field_9_14 > label, #field_9_5 > label, #field_9_4 > label, #field_9_6 > label, #field_9_7 > label, #field_9_15 > label, #field_9_13 > label{
+    line-height: 3.15;
+}
+
+.gform_wrapper#gform_wrapper_9 ul.gform_fields:not(.top_label) .gfield_label{
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1em;
+	width: 70%;
+	color: #000;
+}
+
+body.gform_wrapper#gform_wrapper_9 .top_label div.ginput_container{
+	margin-top: 0;
+}
+
+.gform_wrapper#gform_wrapper_9 .instruction{
+	display: none;
+}
+
+@media screen and (max-width:940px) {
+    #field_9_14 > label, #field_9_5 > label, #field_9_4 > label, #field_9_6 > label, #field_9_7 > label, #field_9_15 > label, #field_9_13 > label{
+        line-height: 1.3 !important;
+    }
+    
+    #field_41_78 > label{
+        line-height: 1.3 !important;
+    }
+
+}
+
+.gform_wrapper#gform_wrapper_9 h2.gsection_title {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+#gform_wrapper_9 .gfield input {
+	text-align:center;
+}
+
+#field_9_7 {
+	background-color: #c09509 !important;
+}
+#input_9_7{
+	background-color: #F1E9C5;
+}
+
+#gform_wrapper_9 .gfield
+{
+	   /* older webkit */
+	   display: -webkit-box;
+	   -webkit-box-align: center;
+	   -webkit-justify-content: center;
+
+    /* older firefox */
+	   display: -moz-box;
+	   -moz-box-align: center;
+	   -moz-box-pack: center;
+
+    /* IE10*/
+	   display: -ms-flexbox;
+	   -ms-flex-align: center;
+	   -ms-flex-pack: center;
+
+    /* newer webkit */
+	   display: -webkit-flex;
+	   -webkit-align-items: center;
+	   -webkit-box-pack: center;
+
+    /* Standard Form - IE 11+, FF 22+, Chrome 29+, Opera 17+ */
+	   display: flex;
+	   align-items: center;
+	   justify-content: center;
+}
