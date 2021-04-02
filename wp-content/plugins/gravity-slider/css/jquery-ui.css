@@ -620,14 +620,14 @@ a.ui-button:active,
 
 #field_3_7, #field_3_8, #field_3_3 {
     margin-right: 0;
-    background-color: #007C29;
+    background-color: #397934;
     overflow: auto;
     padding: 8px 16px;
 }
 
 #field_3_9 {
     margin-right: 0;
-    background-color: #005902;
+    background-color: #275615;
     overflow: auto;
     padding: 8px 16px;
     border-bottom: none !important;
@@ -649,20 +649,34 @@ a.ui-button:active,
 }
 
 #field_3_10 h2.gsection_title {
-    color: #604a1e;
+    color: #426b34;
     font-weight: 200;
 }
 
-#field_3_12, #field_3_13, #field_3_6, #field_3_20{
+#field_3_13, #field_3_14, #field_3_6, #field_3_20{
     margin-right: 0;
-    background-color: #c09509;
+    background-color: #ebae59;
     overflow: auto;
     padding: 8px 16px;
 }
 
-#field_3_14, #field_3_15, #field_3_18, #field_3_19{
+#field_3_12{
     margin-right: 0;
-    background-color: #604a1e;
+    background-color: #388841;
+    overflow: auto;
+    padding: 8px 16px;
+}
+
+#field_3_15, #field_3_19{
+    margin-right: 0;
+    background-color: #5781ad;
+    overflow: auto;
+    padding: 8px 16px;
+}
+
+#field_3_18{
+    margin-right: 0;
+    background-color: #686768;
     overflow: auto;
     padding: 8px 16px;
 }
@@ -673,15 +687,27 @@ a.ui-button:active,
     border: none;
 }
 #input_3_7, #input_3_8, #input_3_3{
-    background-color: #d2eadc;
+    background-color: #d7e9dd;
 }
 
-#input_3_12, #input_3_13, #input_3_6, #input_3_20{
-    background-color: #eedcb8;
+#input_3_13, #input_3_6, #input_3_20{
+    background-color: #f8eddb;
 }
 
-#input_3_14, #input_3_15, #input_3_18, #input_3_19{
-    background-color: #d8c7b3;
+#input_3_12{
+    background-color: #d7e7d9;
+}
+
+#input_3_14{
+    background-color: #f8eddb;
+}
+
+#input_3_15, #input_3_19{
+    background-color: #dde7ef;
+}
+
+#input_3_18{
+    background-color: #d4d4d3;
 }
 
 #field_3_18 > div.gfield_description{
@@ -700,7 +726,7 @@ a.ui-button:active,
 }
 
 #gform_submit_button_3{
-    background-color: #c09509 !important;
+    background-color: #000000 !important;
     color: #fff !important;
 }
 
