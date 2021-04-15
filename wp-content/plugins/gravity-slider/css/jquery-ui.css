@@ -641,28 +641,29 @@ a.ui-button:active,
 
 #field_3_10{
     margin-right: 0;
-    background-color: #ffffff;
+    background-color: #000000;
     overflow: auto;
     padding: 8px 16px;
+	padding-bottom: 8px !important;
     border-bottom: none !important;
     text-align: center;
 }
 
 #field_3_10 h2.gsection_title {
-    color: #426b34;
-    font-weight: 200;
+    color: #ffffff;
+    font-weight: 600;
 }
 
 #field_3_13, #field_3_14, #field_3_6, #field_3_20{
     margin-right: 0;
-    background-color: #ebae59;
+    background-color: #ecae58;
     overflow: auto;
     padding: 8px 16px;
 }
 
 #field_3_12{
     margin-right: 0;
-    background-color: #388841;
+    background-color: #378941;
     overflow: auto;
     padding: 8px 16px;
 }
@@ -687,11 +688,11 @@ a.ui-button:active,
     border: none;
 }
 #input_3_7, #input_3_8, #input_3_3{
-    background-color: #d7e9dd;
+    background-color: #d8e9dd;
 }
 
 #input_3_13, #input_3_6, #input_3_20{
-    background-color: #f8eddb;
+    background-color: #f8eeda;
 }
 
 #input_3_12{
