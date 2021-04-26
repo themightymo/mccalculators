@@ -639,7 +639,7 @@ a.ui-button:active,
     font-weight: 200;
 }
 
-#field_3_10{
+#field_3_10, #field_3_21{
     margin-right: 0;
     background-color: #000000;
     overflow: auto;
@@ -649,7 +649,7 @@ a.ui-button:active,
     text-align: center;
 }
 
-#field_3_10 h2.gsection_title {
+#field_3_10 h2.gsection_title, #field_3_21 h2.gsection_title {
     color: #ffffff;
     font-weight: 600;
 }
@@ -661,7 +661,7 @@ a.ui-button:active,
     padding: 8px 16px;
 }
 
-#field_3_12{
+#field_3_12, #field_3_22, #field_3_23{
     margin-right: 0;
     background-color: #378941;
     overflow: auto;
@@ -695,7 +695,7 @@ a.ui-button:active,
     background-color: #f8eeda;
 }
 
-#input_3_12{
+#input_3_12, #input_3_22, #input_3_23{
     background-color: #d7e7d9;
 }
 
@@ -812,8 +812,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .gform_wrapper .gfield_required {
 	color:#fff;
 }
-#field_3_10, 
-#field_3_10 h2.gsection_title {
+#field_3_10, #field_3_21, 
+#field_3_10 h2.gsection_title, #field_3_21 h2.gsection_title {
 	margin-bottom:0;
 	font-style: italic;
 	font-weight:bold;
